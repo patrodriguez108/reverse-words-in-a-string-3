@@ -4,9 +4,9 @@ def reverse_words(s)
     # reverse each word
   # combine array back into string
 
-  sentence = s.split(" ")
+  sentence_array = s.split(" ")
 
-  p sentence.map { |word| word.reverse! }.join(" ")
+  sentence_array.map { |word| word.reverse! }.join(" ")
 end
 
 reverse_words("Let's take LeetCode contest")
